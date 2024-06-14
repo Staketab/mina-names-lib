@@ -52,7 +52,7 @@ export class MinansClient {
     }
 
     /**
-     * Gets address details
+     * Gets address name
      */
     public async getName(params: GetNameParams): Promise<ApiResponse<NameResponse>> {
         try {
