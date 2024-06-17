@@ -24,7 +24,7 @@ class MinansClient {
      */
     async getDomains(params) {
         try {
-            const response = await this._instance.get("api/domains/" + params.address, {
+            const response = await this._instance.get(`api/domains/${params.address}`, {
                 params: {
                     ...params.options,
                 },
@@ -47,8 +47,8 @@ class MinansClient {
      */
     async getName(params) {
         try {
-            const response = await this._instance.get("api/core/accounts/" + params.address);
-            const data = response.data.content;
+            const response = await this._instance.get(`api/core/accounts/${params.address}/info`);
+            const data = response.data;
             const result = {
                 name: data.name,
                 pk: data.pk,
