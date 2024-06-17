@@ -1,36 +1,36 @@
 {
-  "version": "0.1.1",
-  "name": "mina-names",
-  "description": "Mina names library",
-  "keywords": [
-    "Mina names"
-  ],
-  "author": "staketab.com",
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/Staketab/mina-names",
-  "bugs": {
-    "url": "https://github.com/Staketab/mina-names-lib/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Staketab/mina-names-lib.git"
-  },
-  "main": "lib/web/src/index.js",
-  "exports": {
-    "types": "./lib/ts/src/index.d.ts",
-    "browser": "./lib/web/src/index.js",
-    "default": "./lib/ts/src/index.js"
-  },
-  "types": "lib/web/src/index.d.ts",
-  "files": [
-    "lib",
-    "package.json",
-    "README.md"
-  ],
-  "engines": {
-    "node": ">=18.14.0"
-  },
-  "dependencies": {
-    "axios": "^1.7.2"
-  }
+    "version": "0.2.1",
+    "name": "mina-names",
+    "description": "Mina names library",
+    "keywords": [
+        "Mina names"
+    ],
+    "author": "staketab.com",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/Staketab/mina-names",
+    "bugs": {
+        "url": "https://github.com/Staketab/mina-names-lib/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Staketab/mina-names-lib.git"
+    },
+    "main": "lib/web/src/index.js",
+    "exports": {
+        "types": "./lib/ts/src/index.d.ts",
+        "browser": "./lib/web/src/index.js",
+        "default": "./lib/ts/src/index.js"
+    },
+    "types": "lib/web/src/index.d.ts",
+    "files": [
+        "lib",
+        "package.json",
+        "README.md"
+    ],
+    "engines": {
+        "node": ">=18.14.0"
+    },
+    "dependencies": {
+        "axios": "^1.7.2"
+    }
 }

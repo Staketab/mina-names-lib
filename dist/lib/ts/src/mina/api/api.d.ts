@@ -17,7 +17,7 @@ export declare class MinansClient {
      */
     getDomains(params: GetDomainsParams): Promise<ApiResponse<DomainsResponse>>;
     /**
-     * Gets address details
+     * Gets address name
      */
     getName(params: GetNameParams): Promise<ApiResponse<NameResponse>>;
 }

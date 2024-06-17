@@ -37,7 +37,7 @@ export class MinansClient {
         }
     }
     /**
-     * Gets address details
+     * Gets address name
      */
     async getName(params) {
         try {
