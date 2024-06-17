@@ -57,7 +57,7 @@ export class MinansClient {
     public async getName(params: GetNameParams): Promise<ApiResponse<NameResponse>> {
         try {
             const response = await this._instance.get(`api/core/accounts/${params.address}/info`);
-            const data = response.data.content;
+            const data = response.data;
             const result: NameResponse = {
                 name: data.name,
                 pk: data.pk,
