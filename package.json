@@ -1,26 +1,26 @@
 {
-  "name": "mina-names",
-  "description": "Mina names library",
-  "keywords": [
-    "Mina names"
-  ],
-  "version": "0.1.0",
-  "homepage": "https://github.com/Staketab/mina-names",
-  "repository": "git@github.com:Staketab/mina-names-lib.git",
-  "main": "src/index.ts",
-  "author": "staketab.com",
-  "license": "Apache-2.0",
-  "type": "module",
-  "scripts": {
-    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.web.json",
-    "login": "yarn npm login",
-    "publish": "yarn compile && cd dist && yarn npm publish --access public && cd .."
-  },
-  "dependencies": {
-    "axios": "^1.7.2"
-  },
-  "devDependencies": {
-    "@types/node": "^20.14.1",
-    "typescript": "5.4.5"
-  }
+    "name": "mina-names",
+    "description": "Mina names library",
+    "keywords": [
+        "Mina names"
+    ],
+    "version": "0.1.14",
+    "homepage": "https://github.com/Staketab/mina-names",
+    "repository": "git@github.com:Staketab/mina-names-lib.git",
+    "main": "src/index.ts",
+    "author": "staketab.com",
+    "license": "Apache-2.0",
+    "type": "module",
+    "scripts": {
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.web.json",
+        "login": "yarn npm login",
+        "publish": "yarn compile && cd dist && yarn publish --access public && cd .."
+    },
+    "dependencies": {
+        "axios": "^1.7.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.14.1",
+        "typescript": "5.4.5"
+    }
 }
