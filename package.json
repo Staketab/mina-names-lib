@@ -4,7 +4,7 @@
     "keywords": [
         "Mina names"
     ],
-    "version": "0.1.14",
+    "version": "0.2.2",
     "homepage": "https://github.com/Staketab/mina-names",
     "repository": "git@github.com:Staketab/mina-names-lib.git",
     "main": "src/index.ts",
