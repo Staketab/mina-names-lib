@@ -33,7 +33,7 @@ export class MinansClient {
      */
     public async getDomains(params: GetDomainsParams): Promise<ApiResponse<DomainsResponse>> {
         try {
-            const response = await this._instance.get("api/domains/" + params.address, {
+            const response = await this._instance.get(`api/domains/${params.address}`, {
                 params: {
                     ...params.options,
                 },
@@ -56,7 +56,7 @@ export class MinansClient {
      */
     public async getName(params: GetNameParams): Promise<ApiResponse<NameResponse>> {
         try {
-            const response = await this._instance.get("api/core/accounts/" + params.address);
+            const response = await this._instance.get(`api/core/accounts/${params.address}/info`);
             const data = response.data.content;
             const result: NameResponse = {
                 name: data.name,
