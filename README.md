@@ -1,11 +1,10 @@
 # Mina Names SDK
 
-This is a lightweight SDK, providing utility classes and functions for applications to interact with on-chain `.mina` names registered from [Mina Name Service](https://names.minascan.io).
+This is a lightweight SDK, providing utility classes and functions for applications to interact with on-chain `.mina` names registered at [Mina Name Service](https://names.minascan.io).
 
 ## Getting started
 
-The SDK is published to [npm registry](https://www.npmjs.com/package/mina-names). To use it in your project:
-
+The SDK is published in [npm registry](https://www.npmjs.com/package/mina-names). To use it in your project,  run:
 ```bash
 $ npm i mina-names
 ```
